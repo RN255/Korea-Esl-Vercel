@@ -136,6 +136,7 @@
       <footer></footer>
     </main>
     <script>
+      const isTouch = matchMedia("(pointer: coarse)").matches;
       const D = {
         inc: {
           labels: [
@@ -652,6 +653,7 @@
                 labels: { color: ink, usePointStyle: true, boxWidth: 8 },
               },
               tooltip: {
+                enabled: !isTouch,
                 callbacks: {
                   label: (x) => ` ${x.dataset.label}: ${fmt[c.u](x.parsed.y)}`,
                 },
