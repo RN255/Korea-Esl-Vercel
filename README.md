@@ -6,5 +6,7 @@ The data was compiled using Korean and US government statistics, news articles, 
 
 Future estimates are based on growth rates over the past 10 years.
 
+Full findings available here: https://korea-esl-vercel.vercel.app/
+
 ![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.](../main/korea-esl-salary-sample-chart.png)
 
